@@ -17,7 +17,7 @@ class Vhistory extends Migration
         Schema::create('vhistories', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('terms');
-            $table->boolean('duoes');
+            $table->boolean('dupes');
             $table->integer('count');
             $table->timestamps();
         });
