@@ -23,7 +23,7 @@ class Vusers extends Model
             ->orderBy('name_first');
 
         if ($dupes == 'true') {
-            return $query->groupBy('name_last')
+            $query->groupBy('name_last')
                         ->groupBy('name_first');
         }
 
