@@ -29,6 +29,11 @@ php artisan migrate
 php artisan db:seed
 ```
 
+I had my htaccess file to ignore index.php.. as it standard.
+But as .htaccess files are not typically uploaded to GIT, I've included what I have, in my email.
+
+Buzz me if there are issues, BUT, uf you can see the form, but get network errors on the search, this is why.
+
 Finally, visit your home page of the URL previously set up in the first steps in your hosts file etc
 
 
